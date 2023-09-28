@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Crito </title>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <div class="left-box">  <!-- Innehåller logga -->
+                <a href="index.html">
+                    <img id="logo" src="/images/header-logotype.svg" alt="Crito logotype">
+                </a>
+            </div>
+
+            <div class="responsive-menu"> <!-- Meny till mobil  -->
+                <button class="menu-button" alt="Hover for dropdownmenu"><i class="fa-regular fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a id="active" href="index.html" alt="Homepage">Home</a>
+                    <a href="services.html" alt="Servicepage">Service</a>
+                    <a href="news.html" alt="Newspage">News</a>
+                    <a href="contact.html" alt="Contactpage">Contact</a>
+                    <a href="login.html" alt="Loginpage">Login</a>
+                </div>
+            </div>  
+
+            <div class="right-box">  <!-- Innehåller allt i headern förutom logga och responsiv menu -->
+                
+                <div class="top-menu"> <!-- Övre raden i headern -->
+                    
+                    <div class="top-left"> <!-- Kontaktinformation  -->
+
+                        <div class="content-box">
+                            <i class="fa-light fa-phone-volume"></i>
+                            +46 (8) 121 470 50
+                        </div>
+                        <div class="content-box">
+                            <i class="fa-light fa-envelope-dot"></i>
+                            info@crito.com
+                        </div>
+                        <div id="content-box-last" class="content-box">
+                            <i class="fa-light fa-location-dot"></i>
+                            Sveavägen 31, 111 34 STOCKHOLM
+                        </div>
+
+                    </div>
+                    <div class="top-right"> <!-- Sociala medier -->
+
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+
+
+
+                <div class="bot-menu"> <!-- Nedre raden i headern -->
+                    
+                    <div class="bot-left"> <!-- Meny -->
+
+                        <nav id="content-box-first" class="content-box" >
+                            <a class="active" href="index.html">Home</a>
+                        </nav>     
+                        <nav class="content-box"> 
+                            <a href="services.html">service</a>
+                            <a href="news.html">news</a>
+                            <a href="contact.html">contact</a>
+                        </nav>
+
+                    </div>
+                    <div class="bot-right"> <!-- Login  -->
+
+                        <nav>
+                            <a class="btn-theme-yellow" href="/html/login.html">Login <i class="fa-solid fa-arrow-up-right"></i></a>
+                        </nav>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    
+    <main>
+        <!-- Showcase  -->
+        <section class="showcase">
+            
+            <img class="showcase-graphic" src="/images/showcase-white-graphic.svg" alt="">
+
+            <div class="container">
+    
+                <div class="responsive-img">
+                    <img src="/images/showcase-img-small.png" alt="Image of a man in a suit looking at a tablet and thinking">
+                </div>
+                <div class="left-box">
+
+                    <h1>We Provide The Best Business Solutions</h1>
+
+                    <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
+
+                    <div class="buttons">
+                        <a class="btn-theme-yellow" href="services.html" alt="Click to book a consultation">Get consulting <i class="fa-solid fa-arrow-up-right"></i></a>
+                        <a Class="btn-theme-gray" href="services.html" alt="Click to learn more about our services">Learn more <i class="fa-solid fa-arrow-up-right"></i></a>
+                    </div>
+
+                </div>
+                <div class="right-box">
+                    <img src="/images/showcase-img.png" alt="Image of a man in a suit looking at a tablet and thinking">
+                </div>
+            </div>
+        </section>
+        <!-- Brands -->
+        <section class="brands">
+            <div class="container">
+                <img class="brand" src="/images/brand-logo-1.svg" alt="Paperz logo">
+                <img class="brand" src="/images/brand-logo-2.svg" alt="Dorfus logo">
+                <img class="brand" src="/images/brand-logo-3.svg" alt="Martino logo">
+                <img class="brand" src="/images/brand-logo-4.svg" alt="Square logo">
+                <img class="brand" src="/images/brand-logo-5.svg" alt="Gobona logo">
+            </div>
+        </section>
+        <!-- Features -->
+        <section class=features>
+            <div class="borders"></div>
+            <div class="container">
+                <div class="box-around"></div>
+                <section class="section-title">
+                    <p>Features</p>
+                    <h2>Our Accounting is trusted by thousand of companies</h2>
+                    <a class="btn-theme-yellow" href="services.html" alt="Click to learn more">Learn More <i class="fa-solid fa-arrow-up-right"></i></a>
+                </section>
+                <div class="business-advice features-box">
+                    <a href="/html/services.html" alt="Link to our services page for more information">
+                        <i class="fa-light fa-handshake"></i>
+                        <h3>Business advice</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </a>
+                </div>
+                <div class="startup-business features-box">
+                    <a href="/html/services.html" alt="Link to our services page for more information">
+                        <i class="fa-light fa-lightbulb-dollar"></i>
+                        <h3>Startup business</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </a>
+                </div>
+                <div class="financial-advice features-box">
+                    <a href="/html/services.html" alt="Link to our services page for more information">
+                        <i class="fa-light fa-chart-mixed-up-circle-dollar"></i>
+                        <h3>Financial advice</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </div>
+                <div class="risk-management features-box">
+                    <a href="/html/services.html" alt="Link to our services page for more information">
+                        <i class="fa-light fa-shield-exclamation"></i>                
+                        <h3>Risk management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- About company -->
+        <section class="about-company">
+            <div class="container">
+                <div class="about-img-small">
+                    <div class="blue-box">
+                        <div class="blue-title">
+                            <p class="blue-sam">Samantha Brown,</p>
+                            <p class="blue-founder">Founder</p>
+                        </div>
+                        <p class="blue-lorem">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    </div>
+                    <img src="/images/about-company-img-small.png" alt="Samantha Brown, the founder smiling and carryinga tablet">
+                </div>
+                <div class="about">
+                    <div class="section-title">
+                        <p>About Company</p>
+                        <h2>We Are Business Consulting & Credit Repair Experts</h2>
+                    </div>
+                    <div class="about-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="btn-theme-gray" href="#" alt="Click to learn more about our company">Learn More<i class="fa-solid fa-arrow-up-right"></i></a>
+                        <a Class="btn-theme-video" href="#" alt="Video about our company"><i class="fa-solid fa-play"></i> Intro Video</a>
+                    </div>
+                </div>
+                
+                <div class="about-img">
+                    <div class="about-white-graphic">
+                        <img src="/images/about-company-white-graphic.svg" alt="">
+                    </div>
+                    <div class="blue-box">
+                        <div class="blue-title">
+                            <p class="blue-sam">Samantha Brown,</p>
+                            <p class="blue-founder">Founder</p>
+                        </div>
+                        <p class="blue-lorem">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    </div>
+                    <img src="/images/about-company-img.png" alt="Samantha Brown, the founder, smiling and carryinga tablet">
+                </div>
+
+                
+            </div>
+        </section>
+        <!-- Our services -->
+        <section class="our-services">
+            <div class="container">
+                <section class="section-title">
+                    <p>Our Services</p>
+                    <h2>We Provide The Best Service For Consulting</h2>
+                </section>
+                <div class="our-services-box">
+                    <div class="services-box business-box">
+                        <h3>Business Advice</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
+                        <a href="services.html"><i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="services-box startup-box">
+                        <h3>Startup Business</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
+                        <a href="services.html"><i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="services-box financial-box">
+                        <h3>Financial Advice</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
+                        <a href="services.html"><i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="services-box risk-box">
+                        <h3>Risk Management</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
+                        <a href="services.html"><i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a class="btn-theme-gray" href="services.html">Browse Services <i class="fa-solid fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="services-graphic">
+                <img src="/images/our-services-white-graphic.svg" alt="">
+            </div>
+        </section>
+        <!-- Why choose us -->
+        <section class="why-us">
+            <div class="container">
+                <section class="section-title">
+                    <p>Why Choose Us</p>
+                    <h2>Why We Are The Best Business Consulting Agency</h2>
+                </section>
+                <div class="why-left-box">
+                    <div class="why-text-box box-1">
+                        <div class="icone">
+                            <i class="fa-light fa-thumbs-up"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Process Excellence</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="why-text-box box-2">
+                        <div class="icone">
+                            <i class="fa-light fa-chart-radar"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Strategic Planning</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="why-text-box box-3">
+                        <div class="icone">
+                            <div class="icone-style">
+                                <i class="fa-regular fa-pen-nib fa-rotate-by"></i>
+                                <i class="fa-light fa-bezier-curve"></i>
+                            </div>
+                        </div>   
+                        <div class="text">
+                            <h3>Experience Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="why-text-box box-4">
+                        <div class="icone">
+                            <i class="fa-light fa-head-side-gear"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Artificial Inteligence</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="why-right-box">
+                    <img class="why-img" src="/images/why-choose-us-img.png" alt="Two women discussing and holding a tablet">
+                    <img class="why-img-small" src="/images/why-choose-us-img-small.png" alt="Two women discussing and holding a tablet">
+                    <div class="why-design"></div>
+                </div>
+            </div>
+            <div class="why-design"></div>
+        </section>
+        <!-- Project and case studies -->
+        <section class="project-and-cases">
+            <div class="container">
+                <div class="section-title">
+                    <p>Projects & Case Studies</p>
+                    <h2>Let’s Looks Our Global Projects</h2>
+                </div>
+                <div class="project-links">
+                    <a class="article" href="#">
+                        <img src="/images/project-img-1.png" alt="Man reads business paper">
+                        <h3>Grow you business</h3>
+                        <div class="readmore">Read More <i class="fa-solid fa-arrow-up-right"></i></div>
+                    </a>
+                    <a class="article" href="#">
+                        <img src="/images/project-img-2.png" alt="Smart devices">
+                        <h3>Why your client needs a responsive website</h3>
+                        <div class="readmore">Read More <i class="fa-solid fa-arrow-up-right"></i></div>
+                    </a>
+                    <a class="article" href="#">
+                        <img src="/images/project-img-3.png" alt="Desk with office supplies">
+                        <h3>Educate you employees to get better results</h3>
+                        <div class="readmore">Read More <i class="fa-solid fa-arrow-up-right"></i></div>
+                    </a>
+                    <a class="article" href="#">
+                        <img src="/images/project-img-4.png" alt="A laptop with business intelligence insights">
+                        <h3>Business insights is a important piece of your business</h3>
+                        <div class="readmore">Read More <i class="fa-solid fa-arrow-up-right"></i></div>
+                    </a>
+                </div>
+                <nav>
+                    <a class="btn-theme-black" href="/html/news.html">All Recent Projects <i class="fa-solid fa-arrow-up-right"></i></a>
+                </nav> 
+            </div>
+        </section>
+        <!-- Meet our team -->
+        <section class="meet-our-team">
+            <div class="container">
+                <div class="team-title">
+                    <section class="section-title">
+                        <p>Meet Our Team</p>
+                        <h2>Experience Team Members</h2>
+                    </section>
+                    <div class="button">
+                        <a class="btn-theme-gray" href="#" alt="Button to browse our team ">Browse Team <i class="fa-solid fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-box box-1">
+                        <img src="/images/team-img-1-kristine.png" alt="Picture of Kristine Palmer">
+                        <h4>Kristine Palmer</h4>
+                        <p>Chef Operation Officer</p>
+                    </div>
+                    <div class="team-box box-2">
+                        <img src="/images/team-img-2-mark.png" alt="Picture of Mark Aubri">
+                        <h4>Mark Aubri</h4>
+                        <p>Senior Consultant</p>
+                    </div>
+                    <div class="team-box box-3">
+                        <img src="/images/team-img-3-kimberly.png" alt="Picture of Kimberly Hansen">
+                        <h4>Kimberly Hansen</h4>
+                        <p>Senior Consultant</p>
+                    </div>
+                    <div class="team-box box-4">
+                        <img src="/images/team-img-4-justin.png" alt="Picture of Justin Willoman">
+                        <h4>Justin Willoman</h4>
+                        <p>Senior Tech Consultant</p>
+                    </div>
+                </div>
+                <div class="design-dots"></div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+        <section class="testimonial">
+
+        </section>
+        <!-- Article and news -->
+        <!-- News updates -->
+    </main>
+
+    <footer>Footer</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,1864 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap");
+html, body {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.btn-theme-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.btn-theme-black i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-theme-black:hover {
+  background-color: #ffffff;
+  color: #191919;
+}
+
+.btn-theme-gray {
+  background-color: transparent;
+  border: 2px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.btn-theme-gray i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-theme-gray:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+
+.btn-theme-yellow {
+  background-color: #f9d783;
+  border: 1px solid #f9d783;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.btn-theme-yellow i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-theme-yellow:hover {
+  background-color: #ff6a41;
+  border: 1px solid #ff6a41;
+}
+
+.btn-theme-video {
+  background-color: #ffffff;
+  color: #191919;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #191919;
+}
+.btn-theme-video i {
+  border: 2px solid #191919;
+  border-radius: 30px;
+  padding: 12px 13px 12px 15px;
+  margin-right: 10px;
+}
+.btn-theme-video:hover {
+  color: #f94d1c;
+}
+.btn-theme-video:hover i {
+  background-color: #f94d1c;
+  color: #ffffff;
+  border: 2px solid #f94d1c;
+}
+
+.section-title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.section-title p {
+  color: #f94d1c;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.section-title h2 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.features-box a {
+  text-decoration: none;
+}
+.features-box a i {
+  font-size: 35px;
+  color: #191919;
+}
+.features-box a h3 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.features-box a p {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.features-box a:hover i {
+  color: #f94d1c;
+}
+
+.services-box {
+  height: 330px;
+  width: 300px;
+  position: relative;
+  background-color: #ffffff;
+}
+.services-box:hover {
+  background-color: #f9d783;
+}
+.services-box:hover i {
+  background-color: #ffffff;
+  color: #191919;
+  border: 2px solid #ffffff;
+}
+.services-box h3 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 80px 0 20px 30px;
+}
+.services-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 40px 20px 30px;
+}
+.services-box a {
+  position: absolute;
+  right: 30px;
+  bottom: 45px;
+}
+.services-box a i {
+  background-color: #191919;
+  color: #ffffff;
+  border: 2px solid #191919;
+  border-radius: 30px;
+  padding: 12px 13px 12px 15px;
+  margin-right: 10px;
+}
+
+.why-text-box {
+  display: flex;
+}
+.why-text-box .icone {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.why-text-box .icone i {
+  font-size: 32px;
+}
+.why-text-box .text h3 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.why-text-box .text p {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.team-box {
+  padding: 10px;
+}
+.team-box img {
+  height: auto;
+  width: 100%;
+}
+.team-box h4 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 20px;
+}
+.team-box p {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+header {
+  background-color: #F0EFE9;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+header .container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .responsive-menu {
+  position: relative;
+  display: inline-block;
+  padding-right: 50px;
+}
+header .container .responsive-menu .menu-button {
+  padding: 10px;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+}
+header .container .responsive-menu .menu-button:hover {
+  color: #f94d1c;
+}
+header .container .responsive-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f3f3f3;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header .container .responsive-menu .dropdown-content a {
+  color: #191919;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header .container .responsive-menu:hover .dropdown-content {
+  display: block;
+}
+header .container .responsive-menu:hover .dropdown-content #active {
+  background-color: #dbf4ff;
+}
+header .container .responsive-menu:hover .dropdown-content a:hover {
+  background-color: #beebff;
+}
+header .container .right-box {
+  display: none;
+  flex: 1;
+}
+header .container .right-box .top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid #dad9d3;
+}
+header .container .right-box .top-menu .top-left {
+  display: flex;
+  align-items: end;
+}
+header .container .right-box .top-menu .top-left .content-box {
+  padding-right: 30px;
+  margin-right: 10px;
+  border-right: 1.5px solid #dad9d3;
+  font-size: 15px;
+}
+header .container .right-box .top-menu .top-left .content-box i {
+  margin-right: 5px;
+  font-size: 1.4rem;
+  color: #191919;
+}
+header .container .right-box .top-menu .top-left #content-box-last {
+  border-right: none;
+}
+header .container .right-box .top-menu .top-right a {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #191919;
+  font-size: 1.3rem;
+}
+header .container .right-box .top-menu .top-right a:hover {
+  color: #f94d1c;
+}
+header .container .right-box .bot-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+header .container .right-box .bot-menu .bot-left {
+  display: flex;
+  align-items: end;
+}
+header .container .right-box .bot-menu .bot-left nav a {
+  display: inline-block;
+  position: relative;
+}
+header .container .right-box .bot-menu .bot-left nav a.active {
+  font-weight: 500;
+}
+header .container .right-box .bot-menu .bot-left nav a.active:hover {
+  color: #191919;
+}
+header .container .right-box .bot-menu .bot-left nav a.active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(calc(50% - 15px));
+}
+header .container .right-box .bot-menu .bot-left .content-box a {
+  text-decoration: none;
+  color: #191919;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+header .container .right-box .bot-menu .bot-left .content-box a:hover {
+  color: #f94d1c;
+}
+header .container .right-box .bot-menu .bot-left #content-box-first a {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 20px;
+}
+header .container .right-box .bot-menu .bot-right .btn-theme-yellow {
+  padding: 12px 30px;
+}
+
+main {
+  /*Showcase*/
+  /*Brands*/
+  /*Features*/
+  /*About company*/
+  /*Our sevices*/
+  /*Why choose us*/
+  /*Project and case studies*/
+  /*Meet our team*/
+  /*Testimonial*/
+  /*Article and news*/
+  /*News updates*/
+}
+main .showcase {
+  background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+main .showcase .showcase-graphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+main .showcase .container {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .showcase .container .responsive-img img {
+  height: auto;
+  width: 90%;
+  padding-bottom: 25px;
+  margin-right: -15px;
+  margin-top: -20px;
+}
+main .showcase .container .left-box h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  font-size: 90px;
+}
+main .showcase .container .left-box p {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+main .showcase .container .left-box .buttons {
+  padding-bottom: 100px;
+}
+main .showcase .container .left-box .buttons a {
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+main .showcase .container .right-box {
+  margin-right: -50px;
+}
+main .brands .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main .brands .container .brand {
+  height: auto;
+  width: 20%;
+}
+main .features {
+  height: auto;
+  background-color: #ffffff;
+  position: relative;
+}
+main .features .borders {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid #aeaeae;
+  border-bottom: 1px solid #aeaeae;
+}
+main .features .container {
+  position: relative;
+  z-index: 0;
+  padding-top: 80px;
+  -moz-column-gap: 130px;
+       column-gap: 130px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "h2 box1 box2" "h2 box3 box4";
+}
+main .features .container .box-around {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 110%;
+  left: -5%;
+  border: 1px solid #aeaeae;
+}
+main .features .container .section-title {
+  padding-top: 0px;
+  grid-area: h2;
+}
+main .features .container .section-title h2 {
+  padding-bottom: 50px;
+}
+main .features .container .section-title a {
+  padding: 12px 35%;
+}
+main .features .container .business-advice {
+  grid-area: box1;
+}
+main .features .container .startup-business {
+  grid-area: box2;
+}
+main .features .container .financial-advice {
+  grid-area: box3;
+}
+main .features .container .risk-management {
+  grid-area: box4;
+}
+main .about-company .container {
+  padding: 100px 50px;
+  -moz-column-gap: 15%;
+       column-gap: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "img about";
+}
+main .about-company .container .about {
+  grid-area: about;
+}
+main .about-company .container .about .section-title {
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+main .about-company .container .about-img {
+  grid-area: img;
+  position: relative;
+}
+main .about-company .container .about-img img {
+  height: auto;
+  width: 100%;
+}
+main .about-company .container .about-img .about-white-graphic {
+  position: absolute;
+  top: 6%;
+  left: -6%;
+  width: 40%;
+  height: auto;
+}
+main .about-company .container .about-img .blue-box {
+  background-color: #beebff;
+  width: 65%;
+  height: 30%;
+  position: absolute;
+  bottom: 6.5%;
+  left: -10%;
+}
+main .about-company .container .about-img .blue-box .blue-title {
+  margin: 30px 5px 10px 20px;
+}
+main .about-company .container .about-img .blue-box .blue-title .blue-sam {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline;
+}
+main .about-company .container .about-img .blue-box .blue-title .blue-founder {
+  color: #f94d1c;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline;
+}
+main .about-company .container .about-img .blue-box .blue-lorem {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+main .about-company .container .about-img-small {
+  position: relative;
+}
+main .about-company .container .about-img-small .blue-box {
+  background-color: #beebff;
+  width: 40%;
+  height: 35%;
+  position: absolute;
+  bottom: 6.5%;
+  left: -10%;
+}
+main .about-company .container .about-img-small .blue-box .blue-title {
+  margin: 15px 5px 5px 20px;
+}
+main .about-company .container .about-img-small .blue-box .blue-title .blue-sam {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline;
+}
+main .about-company .container .about-img-small .blue-box .blue-title .blue-founder {
+  color: #f94d1c;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline;
+}
+main .about-company .container .about-img-small .blue-box .blue-lorem {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+main .our-services {
+  background-color: #F0EFE9;
+  padding: 80px 0 110px 0;
+  position: relative;
+}
+main .our-services .container .section-title {
+  width: 500px;
+}
+main .our-services .container .our-services-box {
+  padding-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+main .our-services .container .buttons {
+  padding-top: 60px;
+  text-align: center;
+}
+main .our-services .services-graphic img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 35%;
+}
+main .why-us .container .why-left-box .why-text-box .icone-style {
+  position: relative;
+  height: 35px;
+  width: 35px;
+}
+main .why-us .container .why-left-box .why-text-box .icone-style .fa-bezier-curve {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 28px;
+}
+main .why-us .container .why-left-box .why-text-box .icone-style .fa-pen-nib {
+  position: absolute;
+  left: 8px;
+  top: 13px;
+  font-size: 18px;
+}
+main .why-us .container .why-left-box .why-text-box .icone-style .fa-rotate-by {
+  --fa-rotate-angle: 135deg;
+}
+main .project-and-cases .container .section-title {
+  text-align: center;
+}
+main .project-and-cases .container .project-links {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 30px;
+}
+main .project-and-cases .container .project-links .article {
+  color: #191919;
+  text-decoration: none;
+}
+main .project-and-cases .container .project-links .article img {
+  height: auto;
+  width: 100%;
+}
+main .project-and-cases .container .project-links .article h3 {
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #dad9d3;
+}
+main .project-and-cases .container .project-links .article .readmore {
+  display: block;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin-right: 15px;
+  color: #191919;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+main .project-and-cases .container .project-links .article .readmore i {
+  margin-left: 5px;
+}
+main .project-and-cases .container .project-links .article:hover .readmore {
+  text-decoration: underline;
+  color: #f94d1c;
+}
+main .project-and-cases .container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+main .meet-our-team {
+  background-color: #EDCF86;
+}
+main .meet-our-team .container .team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "box1 box2 box3 box4";
+}
+main .meet-our-team .container .team .box-1 {
+  grid-area: box1;
+}
+main .meet-our-team .container .team .box-2 {
+  grid-area: box2;
+}
+main .meet-our-team .container .team .box-3 {
+  grid-area: box3;
+}
+main .meet-our-team .container .team .box-4 {
+  grid-area: box4;
+}
+main .meet-our-team .container .team .team-box img {
+  height: auto;
+  width: 100%;
+}
+footer {
+  height: 100px;
+  background-color: #beebff;
+}
+
+/*Surfplatta porträtt eller mindre*/
+@media (max-width: 992px) {
+  main .showcase {
+    display: flex;
+    justify-content: center;
+  }
+  main .showcase .showcase-graphic {
+    display: none;
+  }
+  main .showcase .container {
+    display: inline-block;
+  }
+  main .showcase .container .left-box {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  main .showcase .container .left-box h1 {
+    font-size: 40px;
+  }
+  main .showcase .container .left-box p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  main .showcase .container .left-box .buttons {
+    padding-bottom: 20px;
+  }
+  main .showcase .container .left-box .buttons a {
+    font-size: 16px;
+    padding: 10px;
+  }
+  main .showcase .container .right-box {
+    display: none;
+  }
+  main .features .container {
+    padding-top: 40px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2" "box1 box2" "box3 box4";
+  }
+  main .features .container .box-around {
+    display: none;
+  }
+  main .features .container .section-title {
+    text-align: center;
+    padding: 0px 100px 60px 100px;
+  }
+  main .features .container .section-title p {
+    font-size: 16px;
+  }
+  main .features .container .section-title h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  main .features .container .section-title a {
+    padding: 12px 30px;
+  }
+  main .features .container .features-box {
+    width: 80%;
+    padding-left: 70px;
+  }
+  main .features .container .features-box h3 {
+    margin-top: 15px;
+    padding-bottom: 0px;
+  }
+  main .about-company .container {
+    padding: 100px 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "img" "about";
+  }
+  main .about-company .container .about {
+    text-align: center;
+    grid-area: about;
+  }
+  main .about-company .container .about .section-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  main .about-company .container .about .section-title p {
+    font-size: 16px;
+  }
+  main .about-company .container .about .section-title h2 {
+    font-size: 40px;
+    margin-left: 41px;
+    margin-right: 40px;
+  }
+  main .about-company .container .about .about-paragraph {
+    padding-bottom: 20px;
+  }
+  main .about-company .container .about-img {
+    display: none;
+  }
+  main .about-company .container .about-img-small {
+    grid-area: img;
+  }
+  main .about-company .container .about-img-small img {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  main .our-services .container .section-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 70px 0px 70px;
+  }
+  main .our-services .container .section-title p {
+    font-size: 16px;
+  }
+  main .our-services .container .section-title h2 {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+  main .our-services .container .our-services-box {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2" "box3 box4";
+  }
+  main .our-services .container .our-services-box .business-box {
+    grid-area: box1;
+  }
+  main .our-services .container .our-services-box .startup-box {
+    grid-area: box2;
+  }
+  main .our-services .container .our-services-box .financial-box {
+    grid-area: box3;
+  }
+  main .our-services .container .our-services-box .risk-box {
+    grid-area: box4;
+  }
+  main .our-services .container .our-services-box .services-box {
+    height: 300px;
+    width: 330px;
+  }
+  main .our-services .container .our-services-box .services-box h3 {
+    padding-top: 40px;
+  }
+  main .our-services .container .our-services-box .services-box a {
+    bottom: 30px;
+  }
+  main .our-services .container .buttons {
+    padding-top: 100px;
+  }
+  main .why-us {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  main .why-us .container {
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.7fr 1fr 1fr;
+    grid-template-areas: "img" "title" "box";
+  }
+  main .why-us .container .section-title {
+    grid-area: title;
+    text-align: center;
+  }
+  main .why-us .container .why-left-box {
+    grid-area: box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: "box1 box2" "box3 box4";
+  }
+  main .why-us .container .why-right-box {
+    position: relative;
+    grid-area: img;
+  }
+  main .why-us .container .why-right-box img {
+    width: 100%;
+  }
+  main .why-us .container .why-right-box .why-design {
+    position: absolute;
+    left: -5%;
+    bottom: 0;
+    background-color: #F0EFE9;
+    height: 70%;
+    width: 110%;
+    z-index: -1;
+  }
+  main .why-us .container .why-img {
+    display: none;
+  }
+  main .meet-our-team .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  main .meet-our-team .container .team-title {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  main .meet-our-team .container .team-title .section-title {
+    padding-bottom: 0px;
+  }
+  main .meet-our-team .container .team-title .button {
+    padding-top: 20px;
+  }
+  main .meet-our-team .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3 box4";
+  }
+  main .meet-our-team .container .team .team-box {
+    padding: 0px;
+  }
+  main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 90%;
+  }
+  main .meet-our-team .container .team .team-box h4 {
+    font-size: 18px;
+  }
+  main .meet-our-team .container .team .team-box p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+/*Mobiler*/
+@media (max-width: 767px) {
+  main .brands {
+    display: none;
+  }
+  main .features .container {
+    padding-top: 40px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.3 fr 1fr 1fr;
+    grid-template-areas: "h2 h2" "box1 box2" "box3 box4";
+  }
+  main .features .container .box-around {
+    display: none;
+  }
+  main .features .container .section-title {
+    text-align: center;
+    padding: 0px 20px 60px 20px;
+  }
+  main .features .container .section-title p {
+    font-size: 16px;
+  }
+  main .features .container .section-title h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  main .features .container .section-title a {
+    padding: 12px 30px;
+  }
+  main .features .container .features-box {
+    width: 90%;
+    padding-left: 20px;
+  }
+  main .features .container .features-box h3 {
+    margin-top: 15px;
+    padding-bottom: 0px;
+  }
+  main .features .container .features-box p {
+    margin-bottom: 0px;
+  }
+  main .about-company .container {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "img" "about";
+  }
+  main .about-company .container .about {
+    text-align: center;
+    grid-area: about;
+  }
+  main .about-company .container .about .section-title {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  main .about-company .container .about .section-title p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  main .about-company .container .about .section-title h2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  main .about-company .container .about .about-paragraph {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  main .about-company .container .about .buttons .btn-theme-gray {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  main .about-company .container .about .buttons .btn-theme-video {
+    font-size: 15px;
+  }
+  main .about-company .container .about-img {
+    display: none;
+  }
+  main .about-company .container .about-img-small {
+    grid-area: img;
+  }
+  main .about-company .container .about-img-small img {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  main .about-company .container .about-img-small .blue-box {
+    width: 45%;
+    height: 35%;
+    bottom: 6.5%;
+    left: 0%;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title {
+    margin: 15px 5px 5px 20px;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-sam {
+    color: #191919;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-founder {
+    color: #f94d1c;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-lorem {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  main .our-services .container .section-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  main .our-services .container .section-title p {
+    font-size: 16px;
+  }
+  main .our-services .container .section-title h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  main .our-services .container .our-services-box {
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2" "box3 box4";
+  }
+  main .our-services .container .our-services-box .business-box {
+    grid-area: box1;
+  }
+  main .our-services .container .our-services-box .startup-box {
+    grid-area: box2;
+  }
+  main .our-services .container .our-services-box .financial-box {
+    grid-area: box3;
+  }
+  main .our-services .container .our-services-box .risk-box {
+    grid-area: box4;
+  }
+  main .our-services .container .our-services-box .services-box {
+    height: 180px;
+    width: 100%;
+  }
+  main .our-services .container .our-services-box .services-box h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  main .our-services .container .our-services-box .services-box p {
+    padding-right: 95px;
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  main .our-services .container .our-services-box .services-box a {
+    bottom: 30px;
+    right: 5px;
+  }
+  main .our-services .container .buttons {
+    padding-top: 30px;
+  }
+  main .why-us {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  main .why-us .container {
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "img" "title" "box";
+  }
+  main .why-us .container .section-title {
+    grid-area: title;
+    text-align: center;
+  }
+  main .why-us .container .section-title p {
+    font-size: 16px;
+  }
+  main .why-us .container .section-title h2 {
+    font-size: 25px;
+  }
+  main .why-us .container .why-left-box {
+    grid-area: box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3" "box4";
+  }
+  main .why-us .container .why-left-box .why-text-box {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  main .why-us .container .why-left-box .why-text-box h3 {
+    font-size: 18px;
+  }
+  main .why-us .container .why-left-box .why-text-box .text h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  main .why-us .container .why-left-box .why-text-box .text p {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  main .why-us .container .why-left-box .why-text-box .icone {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  main .why-us .container .why-left-box .box-1 {
+    grid-area: box1;
+  }
+  main .why-us .container .why-left-box .box-2 {
+    grid-area: box2;
+  }
+  main .why-us .container .why-left-box .box-3 {
+    grid-area: box3;
+  }
+  main .why-us .container .why-left-box .box-4 {
+    grid-area: box4;
+  }
+  main .why-us .container .why-right-box {
+    grid-area: img;
+  }
+  main .why-us .container .why-right-box img {
+    width: 100%;
+  }
+  main .why-us .container .why-right-box .why-design {
+    display: none;
+  }
+  main .why-us .container .why-img {
+    display: none;
+  }
+  main .project-and-cases .container .section-title p {
+    font-size: 16px;
+  }
+  main .project-and-cases .container .section-title h2 {
+    font-size: 25px;
+  }
+  main .meet-our-team .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  main .meet-our-team .container .team-title {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  main .meet-our-team .container .team-title .section-title {
+    padding-bottom: 0px;
+  }
+  main .meet-our-team .container .team-title .section-title h2 {
+    font-size: 30px;
+  }
+  main .meet-our-team .container .team-title .button {
+    padding-top: 20px;
+  }
+  main .meet-our-team .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2" "box3 box4";
+  }
+  main .meet-our-team .container .team .team-box {
+    padding: 0 5px;
+  }
+  main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 100%;
+  }
+  main .meet-our-team .container .team .team-box h4 {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  main .meet-our-team .container .team .team-box p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 500px) {
+  main .features .container {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .features .container .box-around {
+    display: none;
+  }
+  main .features .container .section-title {
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  main .features .container .section-title p {
+    font-size: 16px;
+  }
+  main .features .container .section-title h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  main .features .container .section-title a {
+    font-size: 14px;
+    padding: 12px 30px;
+  }
+  main .features .container .features-box {
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+  }
+  main .features .container .features-box i {
+    font-size: 25px;
+  }
+  main .features .container .features-box h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    font-size: 20px;
+  }
+  main .features .container .features-box p {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  main .about-company .container .about {
+    text-align: center;
+    grid-area: about;
+  }
+  main .about-company .container .about .section-title {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  main .about-company .container .about .section-title p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  main .about-company .container .about .section-title h2 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  main .about-company .container .about .about-paragraph {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  main .about-company .container .about .buttons .btn-theme-gray {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  main .about-company .container .about .buttons .btn-theme-video {
+    font-size: 15px;
+  }
+  main .about-company .container .about-img-small .blue-box {
+    width: 80%;
+    height: 35%;
+    bottom: 2%;
+    left: 0%;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title {
+    margin: 7px 5px 0px 20px;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-sam {
+    color: #191919;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-founder {
+    color: #f94d1c;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-lorem {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  main .our-services .container .section-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  main .our-services .container .section-title p {
+    font-size: 16px;
+  }
+  main .our-services .container .section-title h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  main .our-services .container .our-services-box {
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3" "box4";
+  }
+  main .our-services .container .our-services-box .business-box {
+    grid-area: box1;
+  }
+  main .our-services .container .our-services-box .startup-box {
+    grid-area: box2;
+  }
+  main .our-services .container .our-services-box .financial-box {
+    grid-area: box3;
+  }
+  main .our-services .container .our-services-box .risk-box {
+    grid-area: box4;
+  }
+  main .our-services .container .our-services-box .services-box {
+    height: 120px;
+    width: 100%;
+  }
+  main .our-services .container .our-services-box .services-box h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  main .our-services .container .our-services-box .services-box p {
+    padding-right: 95px;
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  main .our-services .container .our-services-box .services-box a {
+    bottom: 30px;
+    right: 5px;
+  }
+  main .our-services .container .buttons {
+    padding-top: 30px;
+  }
+}
+/*Extra små mobiler*/
+@media (max-width: 340px) {
+  main .showcase .container .left-box h1 {
+    font-size: 30px;
+  }
+  main .showcase .container .left-box .buttons a {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  main .showcase .container .left-box .buttons a i {
+    display: none;
+  }
+  main .about-company .container .about .buttons a {
+    margin: 5px 20px;
+    display: block;
+  }
+  main .about-company .container .about-img-small .blue-box {
+    height: 40%;
+    width: 100%;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-sam {
+    font-size: 14px;
+  }
+  main .about-company .container .about-img-small .blue-box .blue-title .blue-founder {
+    font-size: 13px;
+  }
+  main .our-services .container .section-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  main .our-services .container .section-title p {
+    font-size: 16px;
+  }
+  main .our-services .container .section-title h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  main .our-services .container .our-services-box {
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3" "box4";
+  }
+  main .our-services .container .our-services-box .business-box {
+    grid-area: box1;
+  }
+  main .our-services .container .our-services-box .startup-box {
+    grid-area: box2;
+  }
+  main .our-services .container .our-services-box .financial-box {
+    grid-area: box3;
+  }
+  main .our-services .container .our-services-box .risk-box {
+    grid-area: box4;
+  }
+  main .our-services .container .our-services-box .services-box {
+    height: 180px;
+    width: 100%;
+  }
+  main .our-services .container .our-services-box .services-box h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  main .our-services .container .our-services-box .services-box p {
+    padding-right: 70px;
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  main .our-services .container .our-services-box .services-box a {
+    bottom: 30px;
+    right: 5px;
+  }
+  main .our-services .container .buttons {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  main .project-and-cases .container .section-title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  main .project-and-cases .container .section-title p {
+    color: #f94d1c;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  main .project-and-cases .container .section-title h2 {
+    color: #191919;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  main .project-and-cases .container .project-links {
+    grid-template-columns: auto auto;
+  }
+  main .project-and-cases .container .project-links .article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+/*Skärmar större än surfplatta porträtt*/
+@media (min-width: 992px) {
+  header .container .responsive-menu {
+    display: none;
+  }
+  header .container .right-box {
+    display: block;
+  }
+  main .showcase .container .responsive-img {
+    display: none;
+  }
+  main .about-company .container .about {
+    position: relative;
+  }
+  main .about-company .container .about .buttons {
+    position: absolute;
+    bottom: 0;
+  }
+  main .about-company .container .about-img-small {
+    display: none;
+  }
+  main .about-company .container .about-img .blue-box .blue-title {
+    margin: 20px 5px 8px 15px;
+  }
+  main .about-company .container .about-img .blue-box .blue-title .blue-sam {
+    font-size: 16px;
+  }
+  main .about-company .container .about-img .blue-box .blue-title .blue-founder {
+    font-size: 14px;
+  }
+  main .about-company .container .about-img .blue-box .blue-lorem {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  main .project-and-cases .container .section-title {
+    padding-top: 120px;
+    padding-bottom: 90px;
+  }
+}
+/*Skärmar större än surfplatta landskap*/
+@media (min-width: 1200px) {
+  main .features .borders {
+    display: none;
+  }
+  main .about-company .container .about-img .blue-box .blue-title {
+    margin: 30px 0px 8px 20px;
+  }
+  main .about-company .container .about-img .blue-box .blue-title .blue-sam {
+    font-size: 16px;
+  }
+  main .about-company .container .about-img .blue-box .blue-title .blue-founder {
+    font-size: 14px;
+  }
+  main .about-company .container .about-img .blue-box .blue-lorem {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  main .why-us {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  main .why-us .container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: 0.8fr 1fr;
+    grid-template-areas: "title img" "box img";
+  }
+  main .why-us .container .section-title {
+    grid-area: title;
+    padding-top: 0;
+    width: 75%;
+  }
+  main .why-us .container .why-left-box {
+    grid-area: box;
+  }
+  main .why-us .container .why-right-box {
+    grid-area: img;
+  }
+  main .why-us .container .why-right-box img {
+    padding-top: 100px;
+    width: 100%;
+  }
+  main .why-us .container .why-img-small {
+    display: none;
+  }
+  main .why-us .why-design {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    bottom: 90px;
+    right: 0;
+    background-color: #F0EFE9;
+    z-index: -1;
+  }
+  main .meet-our-team .container {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  main .meet-our-team .container .team-title {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .meet-our-team .container .team-title .button {
+    padding-top: 50px;
+  }
+  main .meet-our-team .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3 box4";
+  }
+  main .meet-our-team .container .team .team-box {
+    padding: 10px;
+  }
+  main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  main .about-company .container .about .about-paragraph {
+    font-size: 18px;
+  }
+  main .why-us .container .why-right-box img {
+    padding-top: 40px;
+    width: 90%;
+  }
+  main .why-us .why-design {
+    bottom: 120px;
+  }
+}
+/*Extra stora skärmar*/
+@media (min-width: 2500px) {
+  .container {
+    max-width: 2048px;
+  }
+}
+/*Extra små skärmar i landskap*/
+@media (max-height: 300px) {
+  main .showcase .container .left-box h1 {
+    font-size: 25px;
+  }
+}
+/*Mobiler i landskap */
+@media (max-width: 992px) and (orientation: landscape) {
+  main .showcase .container .responsive-img {
+    display: none;
+  }
+  main .brands {
+    display: inline;
+  }
+  main .project-and-cases .container .project-links {
+    grid-template-columns: auto auto;
+  }
+  main .project-and-cases .container .project-links .article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  main .meet-our-team .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  main .meet-our-team .container .team-title {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  main .meet-our-team .container .team-title .section-title {
+    padding-bottom: 0px;
+  }
+  main .meet-our-team .container .team-title .button {
+    padding-top: 20px;
+  }
+  main .meet-our-team .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3 box4";
+  }
+  main .meet-our-team .container .team .team-box {
+    padding: 5px;
+  }
+  main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 100%;
+  }
+  main .meet-our-team .container .team .team-box h4 {
+    font-size: 14px;
+  }
+  main .meet-our-team .container .team .team-box p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+/*Surfplatta i landskap*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  header {
+    padding-bottom: 15px;
+  }
+  header .container {
+    gap: 15px;
+  }
+  header .container .right-box .top-menu {
+    border-bottom: none;
+  }
+  header .container .right-box .top-menu .top-left .content-box {
+    padding-right: 10px;
+  }
+  header .container .right-box .top-menu .top-right {
+    padding: 2px;
+  }
+  header .container .right-box .bot-menu {
+    padding-top: 0px;
+  }
+  header .container .right-box .bot-menu .bot-right .btn-theme-yellow {
+    padding: 9px 30px;
+  }
+  main .showcase .showcase-graphic {
+    display: none;
+  }
+  main .showcase .container .left-box h1 {
+    font-size: 63px;
+  }
+  main .showcase .container .left-box .buttons a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  main .features .container {
+    padding-top: 40px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2" "box1 box2" "box3 box4";
+  }
+  main .features .container .box-around {
+    display: none;
+  }
+  main .features .container .section-title {
+    text-align: center;
+    padding: 0px 150px 60px 150px;
+  }
+  main .features .container .section-title p {
+    font-size: 16px;
+  }
+  main .features .container .section-title h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  main .features .container .section-title a {
+    padding: 12px 30px;
+  }
+  main .features .container .features-box {
+    width: 80%;
+    padding-left: 150px;
+  }
+  main .features .container .features-box h3 {
+    margin-top: 15px;
+    padding-bottom: 0px;
+  }
+  main .about-company .container .about .section-title h2 {
+    font-size: 35px;
+  }
+  main .about-company .container .about .about-paragraph {
+    font-size: 14px;
+  }
+  main .our-services .container .section-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+  }
+  main .our-services .container .section-title p {
+    font-size: 16px;
+  }
+  main .our-services .container .section-title h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  main .our-services .container .our-services-box {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2" "box3 box4";
+  }
+  main .our-services .container .our-services-box .business-box {
+    grid-area: box1;
+  }
+  main .our-services .container .our-services-box .startup-box {
+    grid-area: box2;
+  }
+  main .our-services .container .our-services-box .financial-box {
+    grid-area: box3;
+  }
+  main .our-services .container .our-services-box .risk-box {
+    grid-area: box4;
+  }
+  main .our-services .container .our-services-box .services-box {
+    height: 220px;
+    width: 450px;
+  }
+  main .our-services .container .our-services-box .services-box h3 {
+    padding-top: 40px;
+  }
+  main .our-services .container .our-services-box .services-box a {
+    bottom: 30px;
+  }
+  main .our-services .container .buttons {
+    padding-top: 40px;
+  }
+  main .why-us {
+    position: relative;
+  }
+  main .why-us .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas: "title title" "box img";
+  }
+  main .why-us .container .section-title {
+    grid-area: title;
+    text-align: center;
+  }
+  main .why-us .container .why-left-box {
+    grid-area: box;
+  }
+  main .why-us .container .why-right-box {
+    grid-area: img;
+  }
+  main .why-us .container .why-right-box img {
+    height: auto;
+    width: 90%;
+  }
+  main .why-us .container .why-img-small {
+    display: none;
+  }
+  main .why-us .why-design {
+    position: absolute;
+    width: 55%;
+    height: 50%;
+    bottom: -10%;
+    right: 0;
+    background-color: #F0EFE9;
+    z-index: -1;
+  }
+  main .meet-our-team .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  main .meet-our-team .container .team-title {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .meet-our-team .container .team-title .button {
+    padding-top: 50px;
+  }
+  main .meet-our-team .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3 box4";
+  }
+  main .meet-our-team .container .team .team-box {
+    padding: 10px;
+  }
+  main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 100%;
+  }
+}

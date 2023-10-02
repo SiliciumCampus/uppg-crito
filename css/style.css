@@ -223,6 +223,65 @@ html, body {
   font-weight: 200;
 }
 
+.testimonial-box .review-box .review-stars i {
+  color: #f94d1c;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.testimonial-box .review-box p {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.testimonial-box .client-box {
+  padding-top: 15px;
+  display: flex;
+}
+.testimonial-box .client-box img {
+  height: 60px;
+  width: 60px;
+}
+.testimonial-box .client-box .client-id {
+  padding-left: 10px;
+}
+.testimonial-box .client-box .client-id h4 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.testimonial-box .client-box .client-id p {
+  color: #f94d1c;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.article-box .article-img img {
+  height: auto;
+  width: 100%;
+}
+.article-box .article-img .article-type {
+  color: #6a6c71;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.article-box .article-text h4 {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.article-box .article-text .article-description {
+  color: #5f5f5f;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 header {
   background-color: #F0EFE9;
   padding-top: 13px;
@@ -696,6 +755,69 @@ main .meet-our-team .container .team .team-box img {
   height: auto;
   width: 100%;
 }
+main .meet-our-team .container .design-dots {
+  text-align: center;
+}
+main .meet-our-team .container .design-dots i {
+  padding: 5px;
+  font-size: 10px;
+}
+main .testimonial {
+  padding-bottom: 120px;
+  background-color: #EDCF86;
+}
+main .testimonial .container {
+  padding-top: 70px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
+main .testimonial .container .section-title {
+  text-align: center;
+}
+main .testimonial .container .section-title h2 {
+  padding-bottom: 20px;
+}
+main .testimonial .container .testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+main .testimonial .container .button {
+  padding-top: 70px;
+  text-align: center;
+}
+main .article-and-news .container {
+  padding-bottom: 90px;
+}
+main .article-and-news .container .articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "box1 box2 box3";
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+main .article-and-news .container .articles .box-1 {
+  grid-area: box1;
+}
+main .article-and-news .container .articles .box-2 {
+  grid-area: box2;
+}
+main .article-and-news .container .articles .box-3 {
+  grid-area: box3;
+}
+main .article-and-news .container .articles .article-box .article-img img {
+  height: auto;
+  width: 100%;
+}
+main .article-and-news .container .design-dots {
+  text-align: center;
+}
+main .article-and-news .container .design-dots i {
+  padding: 5px;
+  font-size: 10px;
+}
+
 footer {
   height: 100px;
   background-color: #beebff;
@@ -923,6 +1045,39 @@ footer {
     font-size: 14px;
     font-weight: 400;
   }
+  main .testimonial .container .testimonial-section {
+    padding-right: 20px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box {
+    display: block;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box img {
+    height: 40px;
+    width: 40px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id {
+    padding-left: 0px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id h4 {
+    padding-top: 15px;
+    margin-bottom: 0px;
+  }
+  main .article-and-news .container .article-title {
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  main .article-and-news .container .article-title .section-title {
+    padding-bottom: 50px;
+  }
+  main .article-and-news .container .article-box {
+    padding-bottom: 30px;
+  }
+  main .article-and-news .container .article-box h4 {
+    font-size: 18px;
+  }
+  main .article-and-news .container .article-box .article-type {
+    padding-top: 15px;
+  }
 }
 /*Mobiler*/
 @media (max-width: 767px) {
@@ -948,7 +1103,7 @@ footer {
     font-size: 16px;
   }
   main .features .container .section-title h2 {
-    font-size: 40px;
+    font-size: 25px;
     padding-bottom: 20px;
   }
   main .features .container .section-title a {
@@ -1191,7 +1346,7 @@ footer {
     padding-bottom: 0px;
   }
   main .meet-our-team .container .team-title .section-title h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   main .meet-our-team .container .team-title .button {
     padding-top: 20px;
@@ -1216,6 +1371,68 @@ footer {
   main .meet-our-team .container .team .team-box p {
     font-size: 14px;
     font-weight: 400;
+  }
+  main .testimonial {
+    padding-bottom: 50px;
+  }
+  main .testimonial .container {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  main .testimonial .container .section-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #edcf86;
+  }
+  main .testimonial .container .section-title h2 {
+    padding-bottom: 0px;
+    font-size: 25px;
+  }
+  main .testimonial .container .testimonial-section {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .review-box {
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 0px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box {
+    display: flex;
+    padding-top: 0px;
+    position: relative;
+    border-bottom: 1px solid #edcf86;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box img {
+    position: absolute;
+    left: 0;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id p {
+    font-size: 13px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id h4 {
+    padding-top: 0;
+  }
+  main .testimonial .container .button {
+    padding-top: 40px;
+  }
+  main .article-and-news .container .article-title {
+    padding-bottom: 20px;
+  }
+  main .article-and-news .container .article-title .section-title {
+    padding-bottom: 10px;
+  }
+  main .article-and-news .container .article-title .section-title h2 {
+    font-size: 25px;
+  }
+  main .article-and-news .container .article-title .button .btn-theme-gray {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 }
 @media (max-width: 500px) {
@@ -1379,6 +1596,56 @@ footer {
   main .our-services .container .buttons {
     padding-top: 30px;
   }
+  main .article-and-news .container .article-title {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffcbbc;
+  }
+  main .article-and-news .container .article-title .section-title {
+    padding-bottom: 10px;
+  }
+  main .article-and-news .container .article-title .section-title p {
+    margin-bottom: 0px;
+  }
+  main .article-and-news .container .article-title .section-title h2 {
+    font-size: 25px;
+  }
+  main .article-and-news .container .article-title .button .btn-theme-gray {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  main .article-and-news .container .article-box {
+    border-bottom: 1px solid #ffcbbc;
+    padding-top: 10px;
+  }
+  main .article-and-news .container .article-box .article-text h4 {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  main .article-and-news .container .article-box .article-img {
+    position: relative;
+  }
+  main .article-and-news .container .article-box .article-img img {
+    grid-area: img;
+  }
+  main .article-and-news .container .article-box .article-img .article-type {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    padding: 0 30px 5px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff9e83;
+    background-color: #F0EFE9;
+  }
+  main .article-and-news .container .articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3";
+  }
+  main .article-and-news .container .design-dots {
+    padding-top: 30px;
+  }
 }
 /*Extra små mobiler*/
 @media (max-width: 340px) {
@@ -1459,6 +1726,26 @@ footer {
   }
   main .our-services .container .buttons {
     padding-top: 30px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box {
+    padding-top: 0px;
+    position: relative;
+    border-bottom: 1px solid #EDCF86;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box img {
+    position: absolute;
+    left: 0;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id {
+    padding-left: 50px;
+    width: 100%;
+    text-align: start;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id p {
+    font-size: 13px;
+  }
+  main .testimonial .container .button {
+    padding-top: 40px;
   }
 }
 @media (min-width: 768px) {
@@ -1610,6 +1897,60 @@ footer {
     height: auto;
     width: 100%;
   }
+  main .testimonial {
+    padding-bottom: 120px;
+    background-color: #EDCF86;
+  }
+  main .testimonial .container {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background-color: #ffffff;
+  }
+  main .testimonial .container .section-title {
+    text-align: center;
+  }
+  main .testimonial .container .section-title h2 {
+    padding-bottom: 20px;
+  }
+  main .testimonial .container .testimonial-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 60px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .review-box {
+    padding-right: 50px;
+  }
+  main .testimonial .container .button {
+    padding-top: 70px;
+    text-align: center;
+  }
+  main .article-and-news .container {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  main .article-and-news .container .article-title {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .article-and-news .container .article-title .button {
+    padding-top: 50px;
+  }
+  main .article-and-news .container .articles {
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3";
+  }
+  main .article-and-news .container .articles .article-box {
+    padding: 10px;
+  }
+  main .article-and-news .container .articles .article-box img {
+    height: auto;
+    width: 100%;
+  }
 }
 @media (min-width: 1400px) {
   main .about-company .container .about .about-paragraph {
@@ -1621,6 +1962,14 @@ footer {
   }
   main .why-us .why-design {
     bottom: 120px;
+  }
+  main .testimonial .container .testimonial-section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 /*Extra stora skärmar*/
@@ -1653,7 +2002,7 @@ footer {
   }
   main .meet-our-team .container {
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
   main .meet-our-team .container .team-title {
     padding-bottom: 30px;
@@ -1668,6 +2017,7 @@ footer {
   main .meet-our-team .container .team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: "box1 box2 box3 box4";
   }
   main .meet-our-team .container .team .team-box {
@@ -1683,6 +2033,59 @@ footer {
   main .meet-our-team .container .team .team-box p {
     font-size: 13px;
     font-weight: 400;
+  }
+  main .article-and-news .container .article-title {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffcbbc;
+  }
+  main .article-and-news .container .article-title .section-title {
+    padding-bottom: 10px;
+  }
+  main .article-and-news .container .article-title .section-title h2 {
+    font-size: 25px;
+  }
+  main .article-and-news .container .article-title .button .btn-theme-gray {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  main .article-and-news .container .articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3";
+  }
+  main .article-and-news .container .articles .article-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img text";
+    padding-top: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffcbbc;
+  }
+  main .article-and-news .container .articles .article-box .article-img {
+    position: relative;
+  }
+  main .article-and-news .container .articles .article-box .article-img img {
+    grid-area: img;
+  }
+  main .article-and-news .container .articles .article-box .article-img .article-type {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    padding: 0 30px 5px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff9e83;
+    background-color: #F0EFE9;
+  }
+  main .article-and-news .container .articles .article-box .article-text {
+    grid-area: text;
+    padding-left: 20px;
+  }
+  main .article-and-news .container .articles .article-box .article-text h4 {
+    font-size: 18px;
+  }
+  main .article-and-news .container .design-dots {
+    padding-top: 30px;
   }
 }
 /*Surfplatta i landskap*/
@@ -1858,6 +2261,41 @@ footer {
     padding: 10px;
   }
   main .meet-our-team .container .team .team-box img {
+    height: auto;
+    width: 100%;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .review-box {
+    padding-right: 20px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box img {
+    height: 40px;
+    width: 40px;
+  }
+  main .testimonial .container .testimonial-section .testimonial-box .client-box .client-id h4 {
+    margin-bottom: 0px;
+  }
+  main .article-and-news .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  main .article-and-news .container .article-title {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .article-and-news .container .article-title .button {
+    padding-top: 50px;
+  }
+  main .article-and-news .container .articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "box1 box2 box3";
+  }
+  main .article-and-news .container .articles .article-box {
+    padding-bottom: 30px;
+  }
+  main .article-and-news .container .articles .article-box img {
     height: auto;
     width: 100%;
   }

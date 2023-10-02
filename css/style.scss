@@ -228,6 +228,77 @@ html, body {
         font-weight: 200;
     }
 }
+.testimonial-box {
+    .review-box {
+        .review-stars {
+            i {
+                color: #f94d1c;
+                font-size: 14px;
+                padding-bottom: 15px;
+            }
+        }
+        p {
+            color: #191919;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .client-box {
+        padding-top: 15px;
+        display: flex;
+        img {
+            height: 60px;
+            width: 60px;
+        }
+        .client-id {
+            padding-left: 10px;
+            h4 {
+                color: #191919;
+                font-family: 'DM sans', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            p {
+                
+                color: #f94d1c;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+.article-box {
+    .article-img {
+        img {
+            height: auto;
+            width: 100%;
+        }
+        .article-type {
+            color: #6a6c71;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 30px;
+        }
+    }
+    .article-text {
+       
+        h4 {
+            color: #191919;
+            font-family: 'DM sans', sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .article-description {
+            color: #5f5f5f;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
 
 header{
 
@@ -486,7 +557,6 @@ main {
         }
     }
 /*Features*/
-        
     .features {
         height: auto;
         background-color: #ffffff;
@@ -824,15 +894,76 @@ main {
                 }
             }
             .design-dots {
-
+                text-align: center;
+                i {
+                    padding: 5px;
+                    font-size: 10px;
+                }
             }
         }
     }
 /*Testimonial*/
     .testimonial {
-        
+        padding-bottom: 120px;
+        background-color: #EDCF86;
+        .container {
+            padding-top: 70px;
+            padding-bottom: 120px;
+            background-color: #ffffff;
+            .section-title {
+                text-align: center;
+                h2{ 
+                    padding-bottom: 20px;
+                }
+            }
+            .testimonial-section {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            .button {
+                padding-top: 70px;
+                text-align: center;
+            }
+        }
     }
 /*Article and news*/
+    .article-and-news {
+        .container {
+            padding-bottom: 90px;
+            .articles {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: "box1 box2 box3";
+                column-gap: 15px;
+                .box-1 {
+                    grid-area: box1;
+                }
+                .box-2 {
+                    grid-area: box2;
+                }
+                .box-3 {
+                    grid-area: box3;
+                }
+                .article-box {
+                    .article-img {
+                        img {
+                            height: auto;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .design-dots {
+                text-align: center;
+                i {
+                    padding: 5px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
 /*News updates*/
 
 }
@@ -1114,6 +1245,49 @@ footer {height: 100px; background-color: #beebff;}
                 }
             }
         }
+        .testimonial {
+            .container {
+                .testimonial-section {
+                    padding-right: 20px;
+                    .testimonial-box {
+                        .client-box {
+                            display:block;
+                            img {
+                                height: 40px;
+                                width: 40px;
+                            }
+                            .client-id {
+                                padding-left: 0px;
+                                h4 {
+                                    padding-top: 15px;
+                                    margin-bottom: 0px;
+                                }   
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-and-news {
+            .container {
+                .article-title {
+                    text-align: center;
+                    padding-bottom: 70px;
+                    .section-title {
+                        padding-bottom: 50px;
+                    }
+                }
+                .article-box {
+                    padding-bottom: 30px;
+                    h4 {
+                        font-size: 18px;
+                    }
+                    .article-type {
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
     }
 }
 /*Mobiler*/
@@ -1140,7 +1314,7 @@ footer {height: 100px; background-color: #beebff;}
                         font-size: 16px;
                     }
                     h2 {
-                        font-size: 40px;
+                        font-size: 25px;
                         padding-bottom: 20px;
                     }
                     a{
@@ -1435,7 +1609,7 @@ footer {height: 100px; background-color: #beebff;}
                         
                         padding-bottom: 0px;
                         h2 {
-                            font-size: 30px;
+                            font-size: 25px;
                         }
                     }
                     .button {
@@ -1469,6 +1643,77 @@ footer {height: 100px; background-color: #beebff;}
                 }
                 .design-dots {
     
+                }
+            }
+        }
+        .testimonial {
+            padding-bottom: 50px;
+            .container {
+                padding-top: 0px;
+                padding-bottom: 50px;
+                .section-title {
+                    padding-bottom: 10px;
+                    h2 {
+                        padding-bottom: 0px;
+                        font-size: 25px;
+                    }
+                    border-bottom: 1px solid #edcf86;
+                }
+                .testimonial-section {
+                    display: block;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    .testimonial-box {
+                        .review-box {
+                            padding-top: 30px;
+                            text-align: center;
+                            padding-right: 0px;
+                        }
+                        .client-box {
+                            display: flex;
+                            padding-top: 0px;
+                            position: relative;
+                            img {
+                                position: absolute;
+                                left:0;
+                            }
+                            .client-id {
+                                padding-left: 0px;
+                                width: 100%;
+                                text-align: center;
+                                p {
+                                    font-size: 13px;
+                                }
+                                h4 {
+                                    padding-top: 0;
+                                }
+                            }
+                            border-bottom: 1px solid #edcf86;
+                        }
+                    }
+                }
+                .button {
+                    padding-top: 40px;
+                }
+            }
+        }
+        .article-and-news {
+            .container {
+                .article-title {
+                    padding-bottom: 20px;
+                    .section-title {
+                        padding-bottom: 10px;
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+                    
+                    .button {
+                        .btn-theme-gray {
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
                 }
             }
         }
@@ -1672,6 +1917,69 @@ footer {height: 100px; background-color: #beebff;}
             }
             
         }
+        .article-and-news {
+            .container {
+                .article-title {
+                    text-align: center;
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid #ffcbbc;
+                    .section-title {
+                        padding-bottom: 10px;
+                        p {
+                            margin-bottom: 0px;
+                        }
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+                    .button {
+                        .btn-theme-gray {
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .article-box {
+                    border-bottom: 1px solid #ffcbbc;
+                    padding-top: 10px;
+                   
+                    .article-text {
+                        h4 {
+                            padding-top: 10px;
+                            font-size: 18px;
+                        }
+                    }
+                    .article-img {
+                        position: relative;
+                        img {
+                            grid-area: img;
+                        }
+                        .article-type {
+                            position: absolute;
+                            bottom: -10px;
+                            left:0;
+                            padding: 0 30px 5px 5px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #ff9e83;
+                            background-color: #F0EFE9;
+                            
+                        }
+                    }
+                }
+                .articles {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    grid-template-areas:    "box1"
+                                            "box2"
+                                            "box3";
+
+                }
+                .design-dots {
+                    padding-top: 30px;
+                }
+            }
+        }
     }
 }
 /*Extra små mobiler*/
@@ -1787,6 +2095,37 @@ footer {height: 100px; background-color: #beebff;}
                 }
             }
             
+        }
+        .testimonial {
+            .container {
+                .testimonial-section {
+                    .testimonial-box {
+                        .review-box {
+                        }
+                        .client-box {
+                            padding-top: 0px;
+                           position: relative;
+                            img {
+                                position: absolute;
+                                left:0;
+                            }
+                            .client-id {
+                                
+                                padding-left: 50px;
+                                width: 100%;
+                                text-align: start;
+                                p {
+                                    font-size: 13px;
+                                }
+                            }
+                            border-bottom: 1px solid #EDCF86;
+                        }
+                    }
+                }
+                .button {
+                    padding-top: 40px;
+                }
+            }
         }
     }
 }
@@ -1993,6 +2332,71 @@ footer {height: 100px; background-color: #beebff;}
                 }
             }
         }
+        .testimonial {
+            padding-bottom: 120px;
+            background-color: #EDCF86;
+            .container {
+                padding-top: 70px;
+                padding-bottom: 120px;
+                background-color: #ffffff;
+                .section-title {
+                    text-align: center;
+                    h2{ 
+                        padding-bottom: 20px;
+                    }
+                }
+                .testimonial-section {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-left: 110px;
+                    padding-right: 60px;
+                    .testimonial-box {
+                        
+                        .review-box {
+                            
+                            padding-right: 50px;
+                        }
+                    }
+                }
+                .button {
+                    padding-top: 70px;
+                    text-align: center;
+                }
+            }
+        }
+        .article-and-news {
+            .container {
+                padding-top: 70px;
+                padding-bottom: 60px;
+                .article-title {
+                    padding-bottom: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    .button {
+                        padding-top: 50px;
+                    }
+                }
+                .articles {
+                    padding-bottom: 30px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "box1 box2 box3";
+                    
+                    .article-box {
+                        padding: 10px;
+                        img {
+                            height: auto;
+                            width: 100%;
+                        }
+                    }
+                }
+                .design-dots {
+    
+                }
+            }
+        }
     }
 }
 @media (min-width: 1400px) {
@@ -2017,6 +2421,19 @@ footer {height: 100px; background-color: #beebff;}
             }
             .why-design {
                 bottom:120px;
+            }
+        }
+        .testimonial {
+            .container {
+                .testimonial-section {
+                    padding-left: 60px;
+                    padding-right: 60px;
+                    .testimonial-box {
+                        padding-left: 50px;
+                        padding-right: 50px;
+                        
+                    }
+                }
             }
         }
     }
@@ -2069,7 +2486,7 @@ footer {height: 100px; background-color: #beebff;}
         .meet-our-team {
             .container {
                 padding-top: 20px;
-                padding-bottom: 60px;
+                padding-bottom: 30px;
                 .team-title {
                     padding-bottom: 30px;
                     text-align: center;
@@ -2084,6 +2501,7 @@ footer {height: 100px; background-color: #beebff;}
                 .team {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr;
                     grid-template-areas: "box1 box2 box3 box4";
                    
                    
@@ -2104,6 +2522,79 @@ footer {height: 100px; background-color: #beebff;}
                 }
                 .design-dots {
     
+                }
+            }
+        }
+        
+        .article-and-news {
+            .container {
+                .article-title {
+                    padding-bottom: 30px;
+                    border-bottom: 1px solid #ffcbbc;
+                    .section-title {
+                        padding-bottom: 10px;
+
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+                    
+                    .button {
+                        .btn-theme-gray {
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                
+                .articles {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    grid-template-areas:    "box1"
+                                            "box2"
+                                            "box3";
+
+                    
+                               
+                    .article-box {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-areas:    "img text";
+
+                        padding-top: 35px;
+                        padding-bottom: 15px;
+                        border-bottom: 1px solid #ffcbbc;
+                        .article-img {
+                            position: relative;
+                            img {
+                                grid-area: img;
+                            }
+                            .article-type {
+                                position: absolute;
+                                bottom: -10px;
+                                left:0;
+                                padding: 0 30px 5px 5px;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #ff9e83;
+                                background-color: #F0EFE9;
+                                
+                            }
+                        }
+                        .article-text {
+                            grid-area: text;
+                            padding-left: 20px;
+                            
+                            h4 {
+                                font-size: 18px;
+                            }
+                            
+                        }
+                    }             
+                }
+            
+                .design-dots {
+                    padding-top: 30px;
                 }
             }
         }
@@ -2337,6 +2828,57 @@ footer {height: 100px; background-color: #beebff;}
                 }
                 .design-dots {
     
+                }
+            }
+        }
+        .testimonial {
+            .container {
+                .testimonial-section {
+                    .testimonial-box {
+                        .review-box {
+                            padding-right: 20px;
+                        }
+                        .client-box {
+                            img {
+                                height: 40px;
+                                width: 40px;
+                            }
+                            .client-id {
+                                h4 {
+                                    margin-bottom: 0px;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-and-news{
+            .container {
+                padding-top: 20px;
+                padding-bottom: 60px;
+                .article-title {
+                    padding-bottom: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .button {
+                        padding-top: 50px;
+                    }
+                }
+                .articles {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "box1 box2 box3";
+                    
+                    .article-box {
+                        padding-bottom: 30px;
+                        img {
+                            height: auto;
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }

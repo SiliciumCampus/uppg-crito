@@ -144,6 +144,9 @@ button, a {
   font-weight: 300;
   padding-right: 20px;
 }
+.banner a:hover {
+  color: #f94d1c;
+}
 .banner p {
   display: inline;
   color: #191919;
@@ -191,6 +194,15 @@ button, a {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
+}
+
+.forminput {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 header {
@@ -346,6 +358,54 @@ main .contact-info {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+main .leave-message {
+  padding-bottom: 120px;
+}
+main .leave-message .container {
+  background-color: #F0EFE9;
+  padding: 140px 170px 110px 170px;
+  align-items: center;
+}
+main .leave-message .container p {
+  color: #191919;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2;
+}
+main .leave-message .container .message {
+  margin-top: 30px;
+}
+main .leave-message .container .message ::-moz-placeholder {
+  color: #8c8c8c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+main .leave-message .container .message ::placeholder {
+  color: #8c8c8c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+main .leave-message .container .message textarea {
+  resize: none;
+  height: 150px;
+  margin-bottom: 40px;
+}
+main .leave-message .container .message button {
+  width: 100%;
+}
+main .map img {
+  height: auto;
+  width: 100%;
+}
+main .map .contact-map {
+  display: none;
+}
+
 .footer-dropdown {
   position: relative;
   display: inline-block;
@@ -541,6 +601,15 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
 
 /*Surfplatta porträtt eller mindre*/
 @media (max-width: 992px) {
+  main .leave-message {
+    padding-bottom: 70px;
+  }
+  main .leave-message .container {
+    padding: 120px 90px 90px 90px;
+  }
+  main .leave-message .container p {
+    font-size: 40px;
+  }
   footer .footer-section {
     padding-bottom: 15px;
   }
@@ -576,6 +645,15 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
   }
   main .contact-info .container .first {
     border: none;
+  }
+  main .leave-message {
+    padding-bottom: 5px;
+  }
+  main .leave-message .container {
+    padding: 70px 20px 60px 20px;
+  }
+  main .leave-message .container p {
+    font-size: 32px;
   }
   footer .footer-section {
     padding-bottom: 15px;
@@ -642,6 +720,12 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
 }
 /*Extra små mobiler*/
 @media (max-width: 340px) {
+  main .leave-message .container {
+    padding: 70px 15px 60px 15px;
+  }
+  main .leave-message .container p {
+    font-size: 25px;
+  }
   footer .footer-section {
     padding-bottom: 15px;
   }
@@ -674,6 +758,7 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
     font-size: 16px;
   }
 }
+/*Surfplatta porträtt eller större*/
 @media (min-width: 768px) {
   main .contact-info {
     padding-top: 70px;
@@ -732,6 +817,12 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
   }
   main .contact-info .container .contact-info-box .info-box {
     padding-right: 0px;
+  }
+  main .map .contact-map {
+    display: inline;
+  }
+  main .map .contact-map-small {
+    display: none;
   }
   footer .footer-section .big-footer {
     display: contents;

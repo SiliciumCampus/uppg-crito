@@ -92,7 +92,6 @@
         </header>
         
         <main>
-            Contactpage is under construction
             <!-- Banner -->
             <section class="contact-banner">
                 <div class="banner">
@@ -141,10 +140,23 @@
             <!-- Leave-a-message -->
             <section class="leave-message">
                 <div class="container">
-                   
+                    <p>Leave us a message <br>for any information.</p>
+                    
+                    <form class="message" method="post" action="">
+                        <input class="forminput" type="text" name="m-name" placeholder="Name*" tabindex="1">
+                        <input class="forminput" type="email" name="m-email" placeholder="Email*" tabindex="2">
+                        <textarea class="forminput" name="m-message" placeholder="Your Message*" tabindex="3"></textarea>
+                        
+                        <button class="btn-theme-yellow" type="submit">Send Message</button>
+                    </form>
+            
                 </div>
             </section>
             <!-- Map -->
+            <section class="map">
+                <img class="contact-map" src="/images/contact-map.png">
+                <img class="contact-map-small" src="/images/contact-map-small.png" alt="">
+            </section>
         </main>
         
         <footer>

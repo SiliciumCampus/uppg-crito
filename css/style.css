@@ -13,6 +13,24 @@ button, a {
   transition: background-color 0.15s ease-in-out, color 0.2s ease-in-out;
 }
 
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer";
+}
+.wrapper header {
+  grid-area: header;
+}
+.wrapper main {
+  grid-area: main;
+  text-align: center;
+}
+.wrapper footer {
+  grid-area: footer;
+}
+
 .btn-theme-black {
   background-color: #191919;
   border: 2px solid #191919;
@@ -2595,7 +2613,7 @@ footer .footer-copy .footer-container .footer-social-media a:hover {
   footer .footer-section .responsive-footer .logo-box img {
     margin-left: 60px;
     height: auto;
-    width: 350px;
+    width: 150px;
   }
   footer .footer-section .responsive-footer .logo-box p {
     font-size: 14px;
